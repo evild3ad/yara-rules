@@ -5,7 +5,7 @@ rule Contains_ASCII_Hex_encoded_PE_file
         description = "Detect an ASCII Hex encoded executable"
 		reference = "https://blogs.mcafee.com/mcafee-labs/w97m-downloader-serving-vawtrak/"
 		hash = "e56a57acf528b8cd340ae039519d5150"
-		date = "2016-03-27"
+		date = "2016-03-28"
 		
     strings:
 		$MZ = "4D5A" nocase // DOS header signature in e_magic
